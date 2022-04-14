@@ -377,6 +377,7 @@ footer {
   }
 }
 
+/* Todo: Throw in animations to fill out blank spaces */
 @media (min-width: 800px) {
   h1::after,
   h2::after {
@@ -398,56 +399,35 @@ footer {
   }
 
   .hero {
-    min-height: 90vh;
+    min-height: 85vh;
     grid-template-columns: 1fr 500px;
     grid-template-areas: 
-    "title img"
-    "text img"
-    "links img";
+    "hero-text img";
+    place-items: center;
   }
 
-  .section__title--hero {
-    align-self: end;
-  }
-
-  .section__text--hero{
-    align-self: center;
-  }
 
   .hero--quick-links {
     display: block;
-    align-self: start;
-    margin: 0; 
+    margin: 2em 0; 
   }
 
 
   .about {
     grid-template-columns: 500px 1fr;
     grid-template-areas: 
-    ". title"
-    "img text-1"
-    "img text-2";
-  }
-
-  .section__title--about {
-    grid-area: title;
-  }
-
-  .section__text--about-1 {
-    grid-area: text-1;
-    /* align-self: center; */
-  }
-
-  .section__text--about-2 {
-    grid-area: text-2;
+    "img about-me-text";
   }
 
   .section__image--hero,
   .section__image--about {
     grid-area: img;
-    margin: 0;
+    margin: 2em 0 0;
     object-fit: cover;
-    align-self: center;
+  }
+
+  .about-me-text {
+    align-self: start;
   }
 
   .my-services {
