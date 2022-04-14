@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Nyakio.Muriuki</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="#home">
+        <img src="images/avatar.svg" alt="" class="logo__image">
+      </a>
+    </div>
+
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+  </button>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list__item">
+          <a href="#home" class="nav__link">Home</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#about" class="nav__link">About</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#services" class="nav__link">Services</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#contact" class="nav__link">Get in Touch</a>
+        </li>
+      </ul>  
+    </nav>
+  </header>
+
+  <main class="main">
+  
+    <section class="hero" id="home">
+      <img src="images/Tech Life - Communication.png" alt="" class="section__image section__image--hero">
+      <h1 class="section__title section__title--hero">Hello, I am Nyakio Muriuki.</h1>
+      <p class="section__text section__text--hero">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Inventore ad similique doloremque tempora, atque asperiores non praesentium provident quasi maxime magni animi.
+        Sed consequatur minus in assumenda.
+      </p>
+      <div class="hero--quick-links">
+        <a href="#contact" class="btn btn-primary">Contact Me</a>
+        <a href="#services" class="btn btn-secondary">My Services</a>
+      </div>
+    </section> <!--End hero-->
+
+    <section class="about" id="about">
+      <img src="images/about-me.svg" alt="" class="section__image section__image--about">
+      <h2 class="section__title  section__title--about">About Me</h2>
+      <p class="section__text section__text--about section__text--about-1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Quaerat ex veritatis quidem, optio hic cumque omnis corrupti laboriosam vel neque aliquam consequatur sit pariatur odit. 
+        Sapiente sed dolores molestiae ex?
+      </p>
+
+      <p class="section__text section__text--about section__text--about-2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Quaerat ex veritatis quidem, optio hic cumque omnis corrupti laboriosam vel neque aliquam consequatur sit pariatur odit. 
+        Sapiente sed dolores molestiae ex?
+      </p>
+    </section>  <!--End about-->
+
+    <section class="services" id="services">
+      <h2 class="section__title section__title--services"> Services </h2>
+
+      <div class="my-services">
+        <div class="service">
+          <h3 class="section__title section__title--service">Front-End <br> Development</h3>
+          <p class="service__description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Illo a officia asperiores nostrum aperiam eum, reiciendis numquam sequi.
+          </p>
+          <img src="images/code-slash.svg" alt="" class="service__img">
+          <a href="#" class="btn btn-primary btn-projects">View Projects</a>
+        </div>
+
+        <div class="service">
+          <h3 class="section__title section__title--service">Backend <br> Development</h3>
+          <p class="service__description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Illo a officia asperiores nostrum aperiam eum, reiciendis numquam sequi.
+          </p>
+          <img src="images/server.svg" alt="" class="service__img">
+          <a href="#" class="btn btn-primary btn-projects">View Projects</a>
+        </div>
+
+        <div class="service">
+          <h3 class="section__title section__title--service">Product <br> Design</h3>
+          <p class="service__description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Illo a officia asperiores nostrum aperiam eum, reiciendis numquam sequi.
+          </p>
+          <img src="images/code-slash.svg" alt="" class="service__img">
+          <a href="#" class="btn btn-primary btn-projects">View Projects</a>
+        </div>
+      </div>
+
+    </section><!--End Services-->
+  </main>
+
+  <footer class="footer">
+    <div class="contact" id="contact">
+        <a href="mailto:kagurenyakio@gmail.com" class="footer-email">kagurenyakio@gmail.com</a>
+
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com">
+          <i class="fab fa-twitter"></i>
+      </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com">
+          <i class="fab fa-github"></i>
+      </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://linkedin.com">
+          <i class="fab fa-linkedin"></i>
+      </a>
+      </li>
+    </ul>
+  </div>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
